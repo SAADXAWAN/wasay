@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha - Personal Data Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Alpha</h1>
+        <p>Your Personal Data Platform</p>
+    </header>
+
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="button" onclick="attemptLogin()">Login</button>
+            </form>
+            <p id="error-message"></p>
+        </section>
+
+        <section id="info-section">
+            <h2>Welcome to Alpha!</h2>
+            <p>Discover a world of possibilities with Alpha, your personalized data platform. Customize your experience, stay informed with the latest trends, and explore a dynamic and secure digital space.</p>
+
+            <div id="interactive-widget">
+                <h3>Featured Content</h3>
+                <div class="carousel">
+            <div class="carousel-item">
+             <h4>Personalized Dashboard</h4>
+             <p>Experience a customized dashboard tailored to your preferences. Easily organize and access the information that matters most to you.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2023 Alpha. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
